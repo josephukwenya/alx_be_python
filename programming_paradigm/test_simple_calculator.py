@@ -32,7 +32,7 @@ class TestSimpleCalculator(unittest.TestCase):
 
     self.assertEqual(result1, 2)
     self.assertEqual(result2, 2.5)
-    self.assertIsNone(result3, "Division by zero should return None")
+    self.assertIsNone(result3, None)
 
 if __name__ == "__main__":
   unittest.main()
